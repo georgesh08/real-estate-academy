@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    height: 55px;
+    width: 55px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.showcase-area {
+    position: relative;
+}
+
+.showcase-container img {
+    width: 100%;
+    height: auto;
+}
+
+.showcase-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.showcase-container .main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.showcase-container .main-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.showcase-container .main-text p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
